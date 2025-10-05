@@ -7,7 +7,7 @@ import { nitroV2Plugin } from '@tanstack/nitro-v2-vite-plugin'
 
 const config = defineConfig({
   plugins: [
-    nitroV2Plugin({ preset: 'vercel' }),
+    nitroV2Plugin(),
     // this is the plugin that enables path aliases
     viteTsConfigPaths({
       projects: ['./tsconfig.json'],
