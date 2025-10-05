@@ -16,6 +16,10 @@ const config = defineConfig({
     tanstackStart(),
     viteReact(),
   ],
+
+  ssr: {
+    noExternal: ['@tanstack/react-router', '@tanstack/history']
+  }
 })
 
 export default config
