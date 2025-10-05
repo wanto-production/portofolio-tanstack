@@ -7,6 +7,7 @@
         "@radix-ui/react-slot": "^1.2.3",
         "@react-email/components": "^0.5.5",
         "@tailwindcss/vite": "^4.0.6",
+        "@tanstack/history": "^1.132.31",
         "@tanstack/nitro-v2-vite-plugin": "^1.132.31",
         "@tanstack/react-devtools": "^0.7.0",
         "@tanstack/react-form": "^1.23.5",
