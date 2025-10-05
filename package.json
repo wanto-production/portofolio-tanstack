@@ -12,7 +12,6 @@
     "@radix-ui/react-slot": "^1.2.3",
     "@react-email/components": "^0.5.5",
     "@tailwindcss/vite": "^4.0.6",
-    "@tanstack/history": "^1.132.31",
     "@tanstack/nitro-v2-vite-plugin": "^1.132.31",
     "@tanstack/react-devtools": "^0.7.0",
     "@tanstack/react-form": "^1.23.5",
@@ -20,8 +19,7 @@
     "@tanstack/react-router": "^1.132.37",
     "@tanstack/react-router-devtools": "^1.132.0",
     "@tanstack/react-router-ssr-query": "^1.131.7",
-    "@tanstack/react-start": "^1.132.0",
-    "@tanstack/router": "^0.0.1-beta.53",
+    "@tanstack/react-start": "^1.132.37",
     "@tanstack/router-plugin": "^1.132.0",
     "@tanstack/start": "^1.120.20",
     "class-variance-authority": "^0.7.1",
@@ -52,5 +50,9 @@
     "vite": "^7.1.7",
     "vitest": "^3.0.5",
     "web-vitals": "^5.1.0"
-  }
+  },
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "@tailwindcss/oxide"
+  ]
 }

@@ -16,12 +16,6 @@ const config = defineConfig({
     tanstackStart(),
     viteReact(),
   ],
-
-  ssr: {
-    external: ['resend']
-  },
-
-
 })
 
 export default config
